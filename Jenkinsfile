@@ -6,8 +6,8 @@ pipeline {
         REPO_URL = "https://github.com/deepshikha-dubey/example-voting-app.git"
         ECR_REPO = "498734991270.dkr.ecr.us-east-1.amazonaws.com"
         AWS_REGION = "us-east-1"
-        AWS_ACCESS_KEY_ID = credentials('AKIAXIHXMA6TMWSTZU6K')
-        AWS_SECRET_ACCESS_KEY = credentials('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')
+        AWS_ACCESS_KEY_ID = credentials('')
+        AWS_SECRET_ACCESS_KEY = credentials('')
     }
 
     stages {
